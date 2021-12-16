@@ -1,0 +1,165 @@
+.foodRecipes h3,
+.foodRecipes h2 {
+  font-size: 1.5em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.foodRecipes h2 {
+  padding-left: 5%;
+  color: #37704d;
+}
+.foodRecipes h3 {
+  padding-left: 5%;
+  color: #37704d;
+}
+.foodRecipes p {
+  color: #000000;
+}
+
+.foodRecipes ul,
+.foodRecipes ol {
+  padding-left: 40px;
+  color: #000000;
+}
+
+.foodRecipes li {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.foodRecipe-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.foodSection:first-child {
+  width: 25%;
+}
+
+.foodSection:last-child {
+  width: 74%;
+  padding-right: 4%;
+}
+.foodSection-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.foodHeader {
+  background: linear-gradient(
+    277deg,
+    rgba(64, 86, 116, 1) 0%,
+    rgba(94, 145, 186, 1) 31%,
+    rgba(226, 227, 232, 1) 100%
+  );
+}
+
+.foodHeaderTitle {
+  text-align: center;
+  font-size: 5em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Abril Fatface", "Franklin Gothic Medium", "Arial Narrow", Arial,
+        sans-serif;
+  font-weight: 600;
+}
+
+.foodTitle {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #495197;
+  font-family: "Abril Fatface", "Franklin Gothic Medium", "Arial Narrow", Arial,
+        sans-serif;
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+
+.foodPost {
+  margin-bottom: 50px;
+  background-color: #fff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.13), 1px 2px 2px rgba(0, 0, 0, 0.1),
+            -1px -2px 2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.foodRecipes {
+  width: 60%;
+  background-color: rgba(245, 245, 245, 0.595);
+}
+
+.foodImage {
+  border: 2px solid #fff;
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-right: 3%;
+}
+
+.foodImage img {
+  width: 100%;
+  height: 300;
+  transition: all 2s ease-in-out;
+  border: 2px solid rgb(145, 144, 144);
+  padding: 5px;
+}
+
+.foodImage:hover img {
+  transform: scale(2, 2);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .foodHeaderTitle {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Abril Fatface", "Franklin Gothic Medium", "Arial Narrow",
+      Arial,     sans-serif;
+    font-weight: 600;
+  }
+
+  .foodTitle {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #3c47aa;
+    font-family: "Abril Fatface", "Franklin Gothic Medium", "Arial Narrow",
+      Arial,     sans-serif;
+    font-weight: 600;
+    padding-bottom: 3%;
+  }
+
+  .foodRecipes {
+    width: 100%;
+    padding-right: 3%;
+  }
+
+  .foodImage {
+    border: 2px solid #fff;
+    width: 100%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 5px;
+    padding-right: 3%;
+  }
+}
+
+/*
+* {
+  border: 1px solid grey;
+}
+
+*/

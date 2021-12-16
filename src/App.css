@@ -1,38 +1,94 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+/* .main_container {
+  background-color: white;
+}
+
+h3,
+p {
+  color: white;
+  font-family: "Tenor Sans", sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Tenor Sans", sans-serif;
+  text-align: center;
 }
+*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header_text h1 {
+  font-family: "Tenor Sans", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.divider {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divider hr {
+  width: 300px;
+  height: 1px;
+  margin: 15px;
+}
+
+.Logo img {
+  width: 100px;
+  height: 55px;
+}
+
+.main_card {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 10px;
+  border: 0;
+  margin-left: 450px;
+  border-radius: 4px;
+  font-family: "Tenor Sans", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.main_card img {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cardImg .main_card:hover img {
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 768px) {
+  .main_card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: 0;
+    
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1910px) {
+  .main_card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: 0;
+    
   }
+}
+
+
+.card_hr hr {
+  width: 1px;
+  height: 100px;
+}
+
+.divider_main_card hr {
+  width: auto;
+  height: 1px;
+  margin-top: 0;
 }
