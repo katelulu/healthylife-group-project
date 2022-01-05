@@ -1,5 +1,4 @@
 import React from "react"
-import "./FoodStyles.css"
 import ReactMarkdown from "react-markdown"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"

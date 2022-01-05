@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { client } from "../client"
 import FoodPosts from "./FoodPosts"
-import "./foodstyles.css"
+import "./FoodStyles.css"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
