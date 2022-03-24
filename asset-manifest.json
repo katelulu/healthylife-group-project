@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/healthylife-group-project/static/css/main.ac3f4874.chunk.css",
+    "main.js": "/healthylife-group-project/static/js/main.e084ce4c.chunk.js",
+    "main.js.map": "/healthylife-group-project/static/js/main.e084ce4c.chunk.js.map",
+    "runtime-main.js": "/healthylife-group-project/static/js/runtime-main.693a4316.js",
+    "runtime-main.js.map": "/healthylife-group-project/static/js/runtime-main.693a4316.js.map",
+    "static/css/2.383c0125.chunk.css": "/healthylife-group-project/static/css/2.383c0125.chunk.css",
+    "static/js/2.8ef4f667.chunk.js": "/healthylife-group-project/static/js/2.8ef4f667.chunk.js",
+    "static/js/2.8ef4f667.chunk.js.map": "/healthylife-group-project/static/js/2.8ef4f667.chunk.js.map",
+    "index.html": "/healthylife-group-project/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/healthylife-group-project/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.ac3f4874.chunk.css.map": "/healthylife-group-project/static/css/main.ac3f4874.chunk.css.map",
+    "static/js/2.8ef4f667.chunk.js.LICENSE.txt": "/healthylife-group-project/static/js/2.8ef4f667.chunk.js.LICENSE.txt",
+    "static/media/card_drink.d6e9f376.png": "/healthylife-group-project/static/media/card_drink.d6e9f376.png",
+    "static/media/card_food.f018663a.png": "/healthylife-group-project/static/media/card_food.f018663a.png",
+    "static/media/card_sport.6f28a849.png": "/healthylife-group-project/static/media/card_sport.6f28a849.png",
+    "static/media/carousel_drink_800x400.11031913.jpg": "/healthylife-group-project/static/media/carousel_drink_800x400.11031913.jpg",
+    "static/media/carousel_food_800x400.575473b5.jpg": "/healthylife-group-project/static/media/carousel_food_800x400.575473b5.jpg",
+    "static/media/carousel_sport_800x400.a9368895.jpg": "/healthylife-group-project/static/media/carousel_sport_800x400.a9368895.jpg",
+    "static/media/navbar.css": "/healthylife-group-project/static/media/meditate.c37f50d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.693a4316.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.8ef4f667.chunk.js",
+    "static/css/main.ac3f4874.chunk.css",
+    "static/js/main.e084ce4c.chunk.js"
+  ]
+}
